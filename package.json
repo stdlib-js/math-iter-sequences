@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Standard library math iterators for generating sequences.",
   "license": "Apache-2.0",
   "author": {
