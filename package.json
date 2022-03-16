@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Math iterators for generating sequences.",
   "license": "Apache-2.0",
   "author": {
@@ -102,6 +102,7 @@
     "@stdlib/math-base-special-nonfibonacci": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/symbol-iterator": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-fifo": "^0.0.x",
