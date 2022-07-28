@@ -24,20 +24,30 @@ limitations under the License.
 
 > Math iterators for generating sequences.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { iterCompositesSeq, iterContinuedFractionSeq, iterCubesSeq, iterEvenIntegersSeq, iterFactorialsSeq, iterFibonacciSeq, iterFifthPowersSeq, iterFourthPowersSeq, iterIntegersSeq, iterLucasSeq, iterNegaFibonacciSeq, iterNegaLucasSeq, iterNegativeEvenIntegersSeq, iterNegativeIntegersSeq, iterNegativeOddIntegersSeq, iterNonFibonacciSeq, iterNonNegativeEvenIntegersSeq, iterNonNegativeIntegersSeq, iterNonPositiveEvenIntegersSeq, iterNonPositiveIntegersSeq, iterNonSquaresSeq, iterOddIntegersSeq, iterPositiveEvenIntegersSeq, iterPositiveIntegersSeq, iterPositiveOddIntegersSeq, iterPrimesSeq, iterSquaredTriangularSeq, iterSquaresSeq, iterTriangularSeq } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+var ns = require( '@stdlib/math-iter-sequences' );
 ```
 
 #### ns
@@ -56,6 +66,7 @@ The namespace contains the following functions for creating iterator protocol-co
 <div class="namespace-toc">
 
 -   <span class="signature">[`iterCompositesSeq( [options] )`][@stdlib/math/iter/sequences/composites]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of composite numbers.</span>
+-   <span class="signature">[`iterContinuedFractionSeq( x, [options] )`][@stdlib/math/iter/sequences/continued-fraction]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a list of all continued fraction terms which can be obtained given the precision of a provided number.</span>
 -   <span class="signature">[`iterCubesSeq( [options] )`][@stdlib/math/iter/sequences/cubes]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of cubes.</span>
 -   <span class="signature">[`iterEvenIntegersSeq( [options] )`][@stdlib/math/iter/sequences/even-integers]</span><span class="delimiter">: </span><span class="description">create an iterator which generates an interleaved sequence of even integers.</span>
 -   <span class="signature">[`iterFactorialsSeq( [options] )`][@stdlib/math/iter/sequences/factorials]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of factorials.</span>
@@ -101,8 +112,8 @@ The namespace contains the following functions for creating iterator protocol-co
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-iter-sequences' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -128,7 +139,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -190,61 +201,63 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/iter/sequences/composites]: https://github.com/stdlib-js/math-iter-sequences-composites/tree/deno
+[@stdlib/math/iter/sequences/composites]: https://github.com/stdlib-js/math-iter-sequences-composites
 
-[@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math-iter-sequences-cubes/tree/deno
+[@stdlib/math/iter/sequences/continued-fraction]: https://github.com/stdlib-js/math-iter-sequences-continued-fraction
 
-[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers/tree/deno
+[@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math-iter-sequences-cubes
 
-[@stdlib/math/iter/sequences/factorials]: https://github.com/stdlib-js/math-iter-sequences-factorials/tree/deno
+[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers
 
-[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci/tree/deno
+[@stdlib/math/iter/sequences/factorials]: https://github.com/stdlib-js/math-iter-sequences-factorials
 
-[@stdlib/math/iter/sequences/fifth-powers]: https://github.com/stdlib-js/math-iter-sequences-fifth-powers/tree/deno
+[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci
 
-[@stdlib/math/iter/sequences/fourth-powers]: https://github.com/stdlib-js/math-iter-sequences-fourth-powers/tree/deno
+[@stdlib/math/iter/sequences/fifth-powers]: https://github.com/stdlib-js/math-iter-sequences-fifth-powers
 
-[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers/tree/deno
+[@stdlib/math/iter/sequences/fourth-powers]: https://github.com/stdlib-js/math-iter-sequences-fourth-powers
 
-[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math-iter-sequences-lucas/tree/deno
+[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers
 
-[@stdlib/math/iter/sequences/negafibonacci]: https://github.com/stdlib-js/math-iter-sequences-negafibonacci/tree/deno
+[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math-iter-sequences-lucas
 
-[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas/tree/deno
+[@stdlib/math/iter/sequences/negafibonacci]: https://github.com/stdlib-js/math-iter-sequences-negafibonacci
 
-[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers/tree/deno
+[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas
 
-[@stdlib/math/iter/sequences/negative-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-integers/tree/deno
+[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers
 
-[@stdlib/math/iter/sequences/negative-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-odd-integers/tree/deno
+[@stdlib/math/iter/sequences/negative-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-integers
 
-[@stdlib/math/iter/sequences/nonfibonacci]: https://github.com/stdlib-js/math-iter-sequences-nonfibonacci/tree/deno
+[@stdlib/math/iter/sequences/negative-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-odd-integers
 
-[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers/tree/deno
+[@stdlib/math/iter/sequences/nonfibonacci]: https://github.com/stdlib-js/math-iter-sequences-nonfibonacci
 
-[@stdlib/math/iter/sequences/nonnegative-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-integers/tree/deno
+[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers
 
-[@stdlib/math/iter/sequences/nonpositive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/deno
+[@stdlib/math/iter/sequences/nonnegative-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-integers
 
-[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers/tree/deno
+[@stdlib/math/iter/sequences/nonpositive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers
 
-[@stdlib/math/iter/sequences/nonsquares]: https://github.com/stdlib-js/math-iter-sequences-nonsquares/tree/deno
+[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers
 
-[@stdlib/math/iter/sequences/odd-integers]: https://github.com/stdlib-js/math-iter-sequences-odd-integers/tree/deno
+[@stdlib/math/iter/sequences/nonsquares]: https://github.com/stdlib-js/math-iter-sequences-nonsquares
 
-[@stdlib/math/iter/sequences/positive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-even-integers/tree/deno
+[@stdlib/math/iter/sequences/odd-integers]: https://github.com/stdlib-js/math-iter-sequences-odd-integers
 
-[@stdlib/math/iter/sequences/positive-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-integers/tree/deno
+[@stdlib/math/iter/sequences/positive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-even-integers
 
-[@stdlib/math/iter/sequences/positive-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-odd-integers/tree/deno
+[@stdlib/math/iter/sequences/positive-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-integers
 
-[@stdlib/math/iter/sequences/primes]: https://github.com/stdlib-js/math-iter-sequences-primes/tree/deno
+[@stdlib/math/iter/sequences/positive-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-odd-integers
 
-[@stdlib/math/iter/sequences/squared-triangular]: https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/deno
+[@stdlib/math/iter/sequences/primes]: https://github.com/stdlib-js/math-iter-sequences-primes
 
-[@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math-iter-sequences-squares/tree/deno
+[@stdlib/math/iter/sequences/squared-triangular]: https://github.com/stdlib-js/math-iter-sequences-squared-triangular
 
-[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular/tree/deno
+[@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math-iter-sequences-squares
+
+[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular
 
 <!-- </toc-links> -->
 
