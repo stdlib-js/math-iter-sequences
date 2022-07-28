@@ -66,6 +66,7 @@ The namespace contains the following functions for creating iterator protocol-co
 <div class="namespace-toc">
 
 -   <span class="signature">[`iterCompositesSeq( [options] )`][@stdlib/math/iter/sequences/composites]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of composite numbers.</span>
+-   <span class="signature">[`iterContinuedFractionSeq( x, [options] )`][@stdlib/math/iter/sequences/continued-fraction]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a list of all continued fraction terms which can be obtained given the precision of a provided number.</span>
 -   <span class="signature">[`iterCubesSeq( [options] )`][@stdlib/math/iter/sequences/cubes]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of cubes.</span>
 -   <span class="signature">[`iterEvenIntegersSeq( [options] )`][@stdlib/math/iter/sequences/even-integers]</span><span class="delimiter">: </span><span class="description">create an iterator which generates an interleaved sequence of even integers.</span>
 -   <span class="signature">[`iterFactorialsSeq( [options] )`][@stdlib/math/iter/sequences/factorials]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of factorials.</span>
@@ -201,6 +202,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/math/iter/sequences/composites]: https://github.com/stdlib-js/math-iter-sequences-composites
+
+[@stdlib/math/iter/sequences/continued-fraction]: https://github.com/stdlib-js/math-iter-sequences-continued-fraction
 
 [@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math-iter-sequences-cubes
 
