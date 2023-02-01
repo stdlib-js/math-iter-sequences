@@ -102,7 +102,7 @@
     "@stdlib/math-base-special-nonfibonacci": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/symbol-iterator": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-fifo": "^0.0.x",
