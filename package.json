@@ -40,7 +40,7 @@
     "@stdlib/math-iter-sequences-continued-fraction": "^0.1.0",
     "@stdlib/math-iter-sequences-cubes": "^0.1.0",
     "@stdlib/math-iter-sequences-even-integers": "^0.1.0",
-    "@stdlib/math-iter-sequences-factorials": "^0.0.6",
+    "@stdlib/math-iter-sequences-factorials": "^0.1.0",
     "@stdlib/math-iter-sequences-fibonacci": "^0.1.0",
     "@stdlib/math-iter-sequences-fifth-powers": "^0.1.0",
     "@stdlib/math-iter-sequences-fourth-powers": "^0.1.0",
