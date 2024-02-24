@@ -182,8 +182,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-iter-sequences.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-iter-sequences
 
-[test-image]: https://github.com/stdlib-js/math-iter-sequences/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/math-iter-sequences/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/math-iter-sequences/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/math-iter-sequences/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-sequences/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-iter-sequences?branch=main
