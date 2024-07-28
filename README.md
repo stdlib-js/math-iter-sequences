@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterCompositesSeq, iterContinuedFractionSeq, iterCubesSeq, iterEvenIntegersSeq, iterFactorialsSeq, iterFibonacciSeq, iterFifthPowersSeq, iterFourthPowersSeq, iterIntegersSeq, iterLucasSeq, iterNegaFibonacciSeq, iterNegaLucasSeq, iterNegativeEvenIntegersSeq, iterNegativeIntegersSeq, iterNegativeOddIntegersSeq, iterNonFibonacciSeq, iterNonNegativeEvenIntegersSeq, iterNonNegativeIntegersSeq, iterNonPositiveEvenIntegersSeq, iterNonPositiveIntegersSeq, iterNonSquaresSeq, iterOddIntegersSeq, iterPositiveEvenIntegersSeq, iterPositiveIntegersSeq, iterPositiveOddIntegersSeq, iterPrimesSeq, iterSquaredTriangularSeq, iterSquaresSeq, iterTriangularSeq } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import { iterCompositesSeq, iterContinuedFractionSeq, iterCubesSeq, iterEvenIntegersSeq, iterFactorialsSeq, iterFibonacciSeq, iterFifthPowersSeq, iterFourthPowersSeq, iterIntegersSeq, iterLucasSeq, iterNegaFibonacciSeq, iterNegaLucasSeq, iterNegativeEvenIntegersSeq, iterNegativeIntegersSeq, iterNegativeOddIntegersSeq, iterNonFibonacciSeq, iterNonNegativeEvenIntegersSeq, iterNonNegativeIntegersSeq, iterNonPositiveEvenIntegersSeq, iterNonPositiveIntegersSeq, iterNonSquaresSeq, iterOddIntegersSeq, iterPositiveEvenIntegersSeq, iterPositiveIntegersSeq, iterPositiveOddIntegersSeq, iterPrimesSeq, iterSquaredTriangularSeq, iterSquaresSeq, iterTriangularSeq } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.3.0-deno/mod.js';
 ```
 
 #### ns
@@ -114,7 +114,7 @@ The namespace contains the following functions for creating iterator protocol-co
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
