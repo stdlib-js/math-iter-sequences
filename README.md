@@ -35,38 +35,32 @@ limitations under the License.
 
 > Math iterators for generating sequences.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/math-iter-sequences/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/math-iter-sequences' );
 ```
 
 #### ns
@@ -130,21 +124,11 @@ The namespace contains the following functions for creating iterator protocol-co
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-iter-sequences' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -233,63 +217,63 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/iter/sequences/composites]: https://github.com/stdlib-js/math-iter-sequences-composites/tree/umd
+[@stdlib/math/iter/sequences/composites]: https://github.com/stdlib-js/math-iter-sequences-composites
 
-[@stdlib/math/iter/sequences/continued-fraction]: https://github.com/stdlib-js/math-iter-sequences-continued-fraction/tree/umd
+[@stdlib/math/iter/sequences/continued-fraction]: https://github.com/stdlib-js/math-iter-sequences-continued-fraction
 
-[@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math-iter-sequences-cubes/tree/umd
+[@stdlib/math/iter/sequences/cubes]: https://github.com/stdlib-js/math-iter-sequences-cubes
 
-[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers/tree/umd
+[@stdlib/math/iter/sequences/even-integers]: https://github.com/stdlib-js/math-iter-sequences-even-integers
 
-[@stdlib/math/iter/sequences/factorials]: https://github.com/stdlib-js/math-iter-sequences-factorials/tree/umd
+[@stdlib/math/iter/sequences/factorials]: https://github.com/stdlib-js/math-iter-sequences-factorials
 
-[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci/tree/umd
+[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci
 
-[@stdlib/math/iter/sequences/fifth-powers]: https://github.com/stdlib-js/math-iter-sequences-fifth-powers/tree/umd
+[@stdlib/math/iter/sequences/fifth-powers]: https://github.com/stdlib-js/math-iter-sequences-fifth-powers
 
-[@stdlib/math/iter/sequences/fourth-powers]: https://github.com/stdlib-js/math-iter-sequences-fourth-powers/tree/umd
+[@stdlib/math/iter/sequences/fourth-powers]: https://github.com/stdlib-js/math-iter-sequences-fourth-powers
 
-[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers/tree/umd
+[@stdlib/math/iter/sequences/integers]: https://github.com/stdlib-js/math-iter-sequences-integers
 
-[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math-iter-sequences-lucas/tree/umd
+[@stdlib/math/iter/sequences/lucas]: https://github.com/stdlib-js/math-iter-sequences-lucas
 
-[@stdlib/math/iter/sequences/negafibonacci]: https://github.com/stdlib-js/math-iter-sequences-negafibonacci/tree/umd
+[@stdlib/math/iter/sequences/negafibonacci]: https://github.com/stdlib-js/math-iter-sequences-negafibonacci
 
-[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas/tree/umd
+[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas
 
-[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers/tree/umd
+[@stdlib/math/iter/sequences/negative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-even-integers
 
-[@stdlib/math/iter/sequences/negative-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-integers/tree/umd
+[@stdlib/math/iter/sequences/negative-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-integers
 
-[@stdlib/math/iter/sequences/negative-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-odd-integers/tree/umd
+[@stdlib/math/iter/sequences/negative-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-negative-odd-integers
 
-[@stdlib/math/iter/sequences/nonfibonacci]: https://github.com/stdlib-js/math-iter-sequences-nonfibonacci/tree/umd
+[@stdlib/math/iter/sequences/nonfibonacci]: https://github.com/stdlib-js/math-iter-sequences-nonfibonacci
 
-[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers/tree/umd
+[@stdlib/math/iter/sequences/nonnegative-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-even-integers
 
-[@stdlib/math/iter/sequences/nonnegative-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-integers/tree/umd
+[@stdlib/math/iter/sequences/nonnegative-integers]: https://github.com/stdlib-js/math-iter-sequences-nonnegative-integers
 
-[@stdlib/math/iter/sequences/nonpositive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers/tree/umd
+[@stdlib/math/iter/sequences/nonpositive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-even-integers
 
-[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers/tree/umd
+[@stdlib/math/iter/sequences/nonpositive-integers]: https://github.com/stdlib-js/math-iter-sequences-nonpositive-integers
 
-[@stdlib/math/iter/sequences/nonsquares]: https://github.com/stdlib-js/math-iter-sequences-nonsquares/tree/umd
+[@stdlib/math/iter/sequences/nonsquares]: https://github.com/stdlib-js/math-iter-sequences-nonsquares
 
-[@stdlib/math/iter/sequences/odd-integers]: https://github.com/stdlib-js/math-iter-sequences-odd-integers/tree/umd
+[@stdlib/math/iter/sequences/odd-integers]: https://github.com/stdlib-js/math-iter-sequences-odd-integers
 
-[@stdlib/math/iter/sequences/positive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-even-integers/tree/umd
+[@stdlib/math/iter/sequences/positive-even-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-even-integers
 
-[@stdlib/math/iter/sequences/positive-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-integers/tree/umd
+[@stdlib/math/iter/sequences/positive-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-integers
 
-[@stdlib/math/iter/sequences/positive-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-odd-integers/tree/umd
+[@stdlib/math/iter/sequences/positive-odd-integers]: https://github.com/stdlib-js/math-iter-sequences-positive-odd-integers
 
-[@stdlib/math/iter/sequences/primes]: https://github.com/stdlib-js/math-iter-sequences-primes/tree/umd
+[@stdlib/math/iter/sequences/primes]: https://github.com/stdlib-js/math-iter-sequences-primes
 
-[@stdlib/math/iter/sequences/squared-triangular]: https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/umd
+[@stdlib/math/iter/sequences/squared-triangular]: https://github.com/stdlib-js/math-iter-sequences-squared-triangular
 
-[@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math-iter-sequences-squares/tree/umd
+[@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math-iter-sequences-squares
 
-[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular/tree/umd
+[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular
 
 <!-- </toc-links> -->
 
