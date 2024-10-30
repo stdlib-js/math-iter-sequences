@@ -4,9 +4,42 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-30)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Shivam
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
