@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
@@ -21,7 +21,7 @@
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Shivam
+-   Shivam Ahir
 
 </section>
 
@@ -33,8 +33,9 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f317033`](https://github.com/stdlib-js/stdlib/commit/f3170337071651a2997d15ac194fc767570f2f75) - **docs:** update related packages sections [(#4040)](https://github.com/stdlib-js/stdlib/pull/4040) _(by stdlib-bot)_
 -   [`7bfeb06`](https://github.com/stdlib-js/stdlib/commit/7bfeb066e6bfc209fce693c18ed3006495b3c206) - **style:** minor clean-up _(by Philipp Burckhardt)_
--   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam, Philipp Burckhardt)_
+-   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam Ahir, Philipp Burckhardt)_
 
 </details>
 
@@ -111,7 +112,7 @@ This release closes the following issue:
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Praneki
+-   Pranjal Jha
 
 </section>
 
@@ -125,7 +126,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
--   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - **feat:** add `math/iter/sequences/tribonacci` [(#1393)](https://github.com/stdlib-js/stdlib/pull/1393) _(by Praneki)_
+-   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - **feat:** add `math/iter/sequences/tribonacci` [(#1393)](https://github.com/stdlib-js/stdlib/pull/1393) _(by Pranjal Jha)_
 
 </details>
 
