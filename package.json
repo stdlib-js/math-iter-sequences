@@ -65,6 +65,7 @@
     "@stdlib/math-iter-sequences-squared-triangular": "^0.2.2",
     "@stdlib/math-iter-sequences-squares": "^0.2.2",
     "@stdlib/math-iter-sequences-triangular": "^0.2.2",
+    "@stdlib/math-iter-sequences-tribonacci": "^0.1.1",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {

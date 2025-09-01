@@ -4,15 +4,39 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-09-01)
 
-<section class="packages">
+<section class="features">
 
-### Packages
+### Features
+
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
 
 </section>
 
-<!-- /.packages -->
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`a8f857e`](https://github.com/stdlib-js/stdlib/commit/a8f857eae7ba49b5656e391f1ff8cc088001a5b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c1a5db2`](https://github.com/stdlib-js/stdlib/commit/c1a5db2bed5d1c9d32bf4df2fd592c734002d585) - **refactor:** update path _(by Athan Reines)_
+-   [`f317033`](https://github.com/stdlib-js/stdlib/commit/f3170337071651a2997d15ac194fc767570f2f75) - **docs:** update related packages sections [(#4040)](https://github.com/stdlib-js/stdlib/pull/4040) _(by stdlib-bot)_
+-   [`7bfeb06`](https://github.com/stdlib-js/stdlib/commit/7bfeb066e6bfc209fce693c18ed3006495b3c206) - **style:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam Ahir, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 <section class="contributors">
 
@@ -28,23 +52,6 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.contributors -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`c1a5db2`](https://github.com/stdlib-js/stdlib/commit/c1a5db2bed5d1c9d32bf4df2fd592c734002d585) - **refactor:** update path _(by Athan Reines)_
--   [`f317033`](https://github.com/stdlib-js/stdlib/commit/f3170337071651a2997d15ac194fc767570f2f75) - **docs:** update related packages sections [(#4040)](https://github.com/stdlib-js/stdlib/pull/4040) _(by stdlib-bot)_
--   [`7bfeb06`](https://github.com/stdlib-js/stdlib/commit/7bfeb066e6bfc209fce693c18ed3006495b3c206) - **style:** minor clean-up _(by Philipp Burckhardt)_
--   [`e469715`](https://github.com/stdlib-js/stdlib/commit/e46971500650a5dcf1c9734341de8aeaf4360468) - **docs:** improve README examples of `math/iter/sequences` [(#1779)](https://github.com/stdlib-js/stdlib/pull/1779) _(by Shivam Ahir, Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
 </section>
 
 <!-- /.release -->
@@ -53,47 +60,15 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ## 0.3.0 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-iter-sequences-tribonacci-v0.3.0">
-
-#### [@stdlib/math/iter/sequences/tribonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/tribonacci)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`fa2359f`](https://github.com/stdlib-js/stdlib/commit/fa2359fd3d650e53a959d5e9a3084bfe041a96a0) - add `math/iter/sequences/tribonacci` [(#1393)](https://github.com/stdlib-js/stdlib/pull/1393)
 
 </section>
 
 <!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1331](https://github.com/stdlib-js/stdlib/issues/1331)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -106,19 +81,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Philipp Burckhardt
--   Pranjal Jha
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -135,6 +97,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Pranjal Jha
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -154,27 +129,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -192,6 +146,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -200,1033 +167,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-iter-sequences-v0.1.0">
-
-#### [@stdlib/math/iter/sequences](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-composites-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/composites](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/composites)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-continued-fraction-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/continued-fraction](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/continued-fraction)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-cubes-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/cubes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/cubes)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-even-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/even-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/even-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-factorials-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/factorials](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/factorials)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-fibonacci-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/fibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/fibonacci)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-fifth-powers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/fifth-powers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/fifth-powers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-fourth-powers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/fourth-powers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/fourth-powers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-lucas-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/lucas)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-negafibonacci-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/negafibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/negafibonacci)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-negalucas-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/negalucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/negalucas)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-negative-even-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/negative-even-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/negative-even-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-negative-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/negative-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/negative-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-negative-odd-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/negative-odd-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/negative-odd-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonfibonacci-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonfibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonfibonacci)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonnegative-even-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonnegative-even-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonnegative-even-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonnegative-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonnegative-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonnegative-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonpositive-even-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonpositive-even-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonpositive-even-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonpositive-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonpositive-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonpositive-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-nonsquares-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/nonsquares](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/nonsquares)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-odd-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/odd-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/odd-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-positive-even-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/positive-even-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/positive-even-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-positive-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/positive-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/positive-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-positive-odd-integers-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/positive-odd-integers](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/positive-odd-integers)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-primes-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/primes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/primes)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-squared-triangular-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/squared-triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/squared-triangular)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-squares-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/squares](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/squares)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-iter-sequences-triangular-v0.1.0">
-
-#### [@stdlib/math/iter/sequences/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/triangular)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`98bc722`](https://github.com/stdlib-js/stdlib/commit/98bc7226e2c15c4a1d4bbf7a1d6c415271302c77): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1239,18 +188,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1267,6 +204,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
