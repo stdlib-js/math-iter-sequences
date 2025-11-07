@@ -107,6 +107,7 @@ The namespace contains the following functions for creating iterator protocol-co
 -   <span class="signature">[`iterSquaredTriangularSeq( [options] )`][@stdlib/math/iter/sequences/squared-triangular]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of squared triangular numbers.</span>
 -   <span class="signature">[`iterSquaresSeq( [options] )`][@stdlib/math/iter/sequences/squares]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of squares.</span>
 -   <span class="signature">[`iterTriangularSeq( [options] )`][@stdlib/math/iter/sequences/triangular]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of triangular numbers.</span>
+-   <span class="signature">[`iterTribonacciSeq( [options] )`][@stdlib/math/iter/sequences/tribonacci]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a tribonacci sequence.</span>
 
 </div>
 
@@ -303,6 +304,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/iter/sequences/squares]: https://github.com/stdlib-js/math-iter-sequences-squares
 
 [@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular
+
+[@stdlib/math/iter/sequences/tribonacci]: https://github.com/stdlib-js/math-iter-sequences-tribonacci
 
 <!-- </toc-links> -->
 
