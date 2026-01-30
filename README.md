@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.4.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterCompositesSeq, iterContinuedFractionSeq, iterCubesSeq, iterEvenIntegersSeq, iterFactorialsSeq, iterFibonacciSeq, iterFifthPowersSeq, iterFourthPowersSeq, iterIntegersSeq, iterLucasSeq, iterNegaFibonacciSeq, iterNegaLucasSeq, iterNegativeEvenIntegersSeq, iterNegativeIntegersSeq, iterNegativeOddIntegersSeq, iterNonFibonacciSeq, iterNonNegativeEvenIntegersSeq, iterNonNegativeIntegersSeq, iterNonPositiveEvenIntegersSeq, iterNonPositiveIntegersSeq, iterNonSquaresSeq, iterOddIntegersSeq, iterPositiveEvenIntegersSeq, iterPositiveIntegersSeq, iterPositiveOddIntegersSeq, iterPrimesSeq, iterSquaredTriangularSeq, iterSquaresSeq, iterTriangularSeq, iterTribonacciSeq } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import { iterCompositesSeq, iterContinuedFractionSeq, iterCubesSeq, iterEvenIntegersSeq, iterFactorialsSeq, iterFibonacciSeq, iterFifthPowersSeq, iterFourthPowersSeq, iterIntegersSeq, iterLucasSeq, iterNegaFibonacciSeq, iterNegaLucasSeq, iterNegativeEvenIntegersSeq, iterNegativeIntegersSeq, iterNegativeOddIntegersSeq, iterNonFibonacciSeq, iterNonNegativeEvenIntegersSeq, iterNonNegativeIntegersSeq, iterNonPositiveEvenIntegersSeq, iterNonPositiveIntegersSeq, iterNonSquaresSeq, iterOddIntegersSeq, iterPositiveEvenIntegersSeq, iterPositiveIntegersSeq, iterPositiveOddIntegersSeq, iterPrimesSeq, iterSquaredTriangularSeq, iterSquaresSeq, iterTriangularSeq, iterTribonacciSeq } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.4.0-deno/mod.js';
 ```
 
 #### ns
@@ -112,7 +112,7 @@ The namespace contains the following functions for creating iterator protocol-co
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences@v0.4.0-deno/mod.js';
 
 // Create iterators for generating square and cube numbers:
 var squares = ns.iterSquaresSeq();
